@@ -1,0 +1,25 @@
+11:23:26 **** Auto Build of configuration Debug for project Encoder_Software ****
+make all 
+Building file: ../src/Encoder.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Encoder.o" -I../../SInglePin_Encoder_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Encoder.d" -MT"src/Encoder.d" -o "src/Encoder.o" "../src/Encoder.c"
+../src/Encoder.c: In function 'delay':
+../src/Encoder.c:55:9: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+     int a=0;
+         ^
+Finished building: ../src/Encoder.c
+ 
+Building target: Encoder_Software.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../SInglePin_Encoder_SDK_bsp/ps7_cortexa9_0/lib -o "Encoder_Software.elf"  ./src/Encoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Encoder_Software.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Encoder_Software.elf  |tee "Encoder_Software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  65548	   3144	  22716	  91408	  16510	Encoder_Software.elf
+Finished building: Encoder_Software.elf.size
+ 
+
+11:23:26 Build Finished (took 138ms)
+

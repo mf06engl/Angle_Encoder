@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0"
+		MinorVersion="31">
+	<CompositeFile CompositeFileTopName="Angle_Block_Design_2"
+			CanBeSetAsTop="true"
+			CanDisplayChildGraph="true">
+		<Description>Composite Fileset</Description>
+		<Generation Name="SYNTHESIS"
+				State="GENERATED"/>
+		<Generation Name="IMPLEMENTATION"
+				State="GENERATED"/>
+		<Generation Name="SIMULATION"
+				State="STALE"/>
+		<FileCollection Name="SOURCES"
+				Type="SOURCES">
+			<File Name="ip/Angle_Block_Design_2_processing_system7_0_0/Angle_Block_Design_2_processing_system7_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="processing_system7_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_axi_gpio_0_0/Angle_Block_Design_2_axi_gpio_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="axi_gpio_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_processing_system7_0_axi_periph_0/Angle_Block_Design_2_processing_system7_0_axi_periph_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="processing_system7_0_axi_periph"/>
+				<Properties IsEditable="false"
+						IsVisible="false"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_rst_processing_system7_0_100M_0/Angle_Block_Design_2_rst_processing_system7_0_100M_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="rst_processing_system7_0_100M"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_axi_gpio_1_0/Angle_Block_Design_2_axi_gpio_1_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="axi_gpio_1"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_xbar_0/Angle_Block_Design_2_xbar_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="processing_system7_0_axi_periph/xbar"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_xlconcat_0_0/Angle_Block_Design_2_xlconcat_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="xlconcat_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="hdl/Angle_Block_Design_2.vhd"
+					Type="VHDL">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_axi_gpio_2_0/Angle_Block_Design_2_axi_gpio_2_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="axi_gpio_2"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/Angle_Block_Design_2_auto_pc_0/Angle_Block_Design_2_auto_pc_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="processing_system7_0_axi_periph/s00_couplers/auto_pc"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="Angle_Block_Design_2_ooc.xdc"
+					Type="XDC">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="OUT_OF_CONTEXT"/>
+			</File>
+			<File Name="hw_handoff/Angle_Block_Design_2.hwh"
+					Type="HwHandoff">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="HW_HANDOFF"/>
+			</File>
+			<File Name="hw_handoff/Angle_Block_Design_2_bd.tcl">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="HW_HANDOFF"/>
+			</File>
+		</FileCollection>
+	</CompositeFile>
+</Root>

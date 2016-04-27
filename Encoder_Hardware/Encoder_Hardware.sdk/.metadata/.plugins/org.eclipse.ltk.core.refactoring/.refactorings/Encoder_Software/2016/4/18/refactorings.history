@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Encoder_Software/src/SinglePin_Encoder.c&apos; to &apos;Encoder.c&apos;" description="Rename resource &apos;SinglePin_Encoder.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SinglePin_Encoder.c" name="Encoder.c" stamp="1461781406368" updateReferences="true"/>
+</session>
