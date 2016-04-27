@@ -7,5 +7,6 @@ Included in repository:
 1. Vivado Design Suite Block Design (.xpr and associated files)
 
 2. Software Development Kit (Source file(.c)) 
+    Located: Encoder_Hardware/Encoder_Hardware.sdk/Encoder_Software/src/Encoder.c
 
 Note: Both designs were created using the 2014.4 versions of the Xilinx tools,  so some editing will be in order when importing the specs to later versions.
